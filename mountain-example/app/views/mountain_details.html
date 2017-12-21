@@ -1,0 +1,51 @@
+<!-- File: chapter10/routing-example/app/views/team_details.html -->
+<div class="team-details-container card">
+  <div class="team-logo">
+      <img title="Image Courtesy: Wikipedia"
+           ng-src="{{mountainDetailsCtrl.mountain.imgUrl}}">
+  </div>
+  <div class="name">
+      <span ng-bind="mountainDetailsCtrl.mountain.name"></span>
+  </div>
+  <div class="detail">
+    <div class="label">
+      <span>Position</span>
+    </div>
+    <div class="title">
+      <span ng-bind="mountainDetailsCtrl.mountain.rank">
+      </span>
+    </div>
+  </div>
+  <div class="detail">
+    <div class="label">
+      <span>Known As</span>
+    </div>
+    <div class="title">
+      <span ng-bind="mountainDetailsCtrl.mountain.knownAs"></span>
+    </div>
+  </div>
+  <div class="detail">
+    <div class="label">
+      <span>Location</span>
+    </div>
+    <div class="title">
+      <span ng-bind="mountainDetailsCtrl.mountain.located"></span>
+    </div>
+  </div>
+  <div class="detail">
+    <div class="label">
+      <span>Height</span>
+    </div>
+    <div class="title">
+      <span ng-bind="mountainDetailsCtrl.mountain.height"></span>
+    </div>
+  </div>
+  <div class="detail">
+    <div class="label">
+      <span>First Ascent</span>
+    </div>
+    <div class="title">
+      <span ng-bind="mountainDetailsCtrl.mountain.firstAscent"></span>
+    </div>
+  </div>
+</div>

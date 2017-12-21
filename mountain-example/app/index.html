@@ -1,0 +1,31 @@
+<!-- File: chapter10/routing-example/app/index.html -->
+<html>
+<head>
+  <title>TOP 10 Mountains</title>
+  <link rel="stylesheet" href="styles/bootstrap.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <link rel="icon" href="fifa.png"/>
+</head>
+<body ng-app="mountainApp" class="landing">
+  <div class="top-bar">
+    <div class="pull-left">
+      <span><a href="#/">TOP 10 Mountains</a></span>
+    </div>
+    <div class="pull-right">
+      <span class="glyphicon glyphicon-tent"></span>
+    </div>
+  </div>
+
+  <div ng-view></div>
+
+  <script src="scripts/vendors/jquery-1.11.1.js"></script>
+  <script src="scripts/vendors/angular.js"></script>
+  <script src="scripts/vendors/angular-route.js"></script>
+
+  <script src="scripts/app.js"></script>
+  <script src="scripts/services.js"></script>
+  <script src="scripts/controllers.js"></script>
+</body>
+</html>
